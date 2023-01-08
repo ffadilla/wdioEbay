@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "(.//*[@aria-labelledby=(//*[normalize-space() = \"Asia\"]/@id)] | .//*[@aria-describedby=(//*[normalize-space() = \"Asia\"]/@id)] | .//*[@aria-label = \"Asia\"] | .//input[@id = (//label[normalize-space() = \"Asia\"]/@for)] | .//input[@placeholder=\"Asia\"] | .//input[@aria-placeholder=\"Asia\"] | .//*[@title=\"Asia\"] | .//img[@alt=\"Asia\"] | .//*[normalize-space() = \"Asia\"])[1]"
+}

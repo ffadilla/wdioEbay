@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "(.//*[@aria-labelledby=(//*[normalize-space() = \"Maximum Value, US Dollar\"]/@id)] | .//*[@aria-describedby=(//*[normalize-space() = \"Maximum Value, US Dollar\"]/@id)] | .//*[@aria-label = \"Maximum Value, US Dollar\"] | .//input[@id = (//label[normalize-space() = \"Maximum Value, US Dollar\"]/@for)] | .//input[@placeholder=\"Maximum Value, US Dollar\"] | .//input[@aria-placeholder=\"Maximum Value, US Dollar\"] | .//*[@title=\"Maximum Value, US Dollar\"] | .//img[@alt=\"Maximum Value, US Dollar\"] | .//*[normalize-space() = \"Maximum Value, US Dollar\"])[1]"
+}

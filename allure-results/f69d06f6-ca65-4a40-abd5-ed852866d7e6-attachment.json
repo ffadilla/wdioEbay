@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": ".//*[contains(@class, \"x-overlay-footer__apply\") and normalize-space() = \"Apply\"]"
+}

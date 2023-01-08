@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "(.//*[@aria-labelledby=(//*[normalize-space() = \"Minimum Value, US Dollar\"]/@id)] | .//*[@aria-describedby=(//*[normalize-space() = \"Minimum Value, US Dollar\"]/@id)] | .//*[@aria-label = \"Minimum Value, US Dollar\"] | .//input[@id = (//label[normalize-space() = \"Minimum Value, US Dollar\"]/@for)] | .//input[@placeholder=\"Minimum Value, US Dollar\"] | .//input[@aria-placeholder=\"Minimum Value, US Dollar\"] | .//*[@title=\"Minimum Value, US Dollar\"] | .//img[@alt=\"Minimum Value, US Dollar\"] | .//*[normalize-space() = \"Minimum Value, US Dollar\"])[1]"
+}

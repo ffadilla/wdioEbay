@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "(.//*[@aria-labelledby=(//*[normalize-space() = \"All Filter\"]/@id)] | .//*[@aria-describedby=(//*[normalize-space() = \"All Filter\"]/@id)] | .//*[@aria-label = \"All Filter\"] | .//input[@id = (//label[normalize-space() = \"All Filter\"]/@for)] | .//input[@placeholder=\"All Filter\"] | .//input[@aria-placeholder=\"All Filter\"] | .//*[@title=\"All Filter\"] | .//img[@alt=\"All Filter\"] | .//*[normalize-space() = \"All Filter\"])[1]"
+}

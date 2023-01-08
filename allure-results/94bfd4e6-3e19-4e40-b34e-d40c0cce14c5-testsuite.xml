@@ -1,0 +1,145 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673019973702' stop='1673019973720'>
+    <name>ebay website: Access a Product via category after applying multiple filters</name>
+    <title>ebay website: Access a Product via category after applying multiple filters</title>
+    <test-cases>
+        <test-case start='1673019973703' status='passed' stop='1673019973704'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673019973706' status='broken' stop='1673019973711'>
+            <name>Given I am on the cell Phones and accessories page https://www.ebay.com/b/Electronics/bn_7000259124</name>
+            <title>Given I am on the cell Phones and accessories page https://www.ebay.com/b/Electronics/bn_7000259124</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I am on the cell Phones and accessories page https://www.ebay.com/b/Electronics/bn_7000259124" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I am on the cell Phones and accessories page https://www.ebay.com/b/Electronics/bn_7000259124" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/syarasafrila/WdioCermati/features/ebay.feature):1:1
+                	at Scenario(Access a Product via category after applying multiple filters):3:5
+                	at Step(I am on the cell Phones and accessories page &lt;navigate>):5:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673019973711' status='broken' stop='1673019973711'>
+            <name>When user clicks on cell Phones and Smartphones side navigation</name>
+            <title>When user clicks on cell Phones and Smartphones side navigation</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "user clicks on cell Phones and Smartphones side navigation" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "user clicks on cell Phones and Smartphones side navigation" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/syarasafrila/WdioCermati/features/ebay.feature):1:1
+                	at Scenario(Access a Product via category after applying multiple filters):3:5
+                	at Step(user clicks on cell Phones and Smartphones side navigation):6:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673019973711' status='broken' stop='1673019973715'>
+            <name>When user clicks on more refinement button</name>
+            <title>When user clicks on more refinement button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "user clicks on more refinement button" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "user clicks on more refinement button" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/syarasafrila/WdioCermati/features/ebay.feature):1:1
+                	at Scenario(Access a Product via category after applying multiple filters):3:5
+                	at Step(user clicks on more refinement button):7:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673019973716' status='broken' stop='1673019973716'>
+            <name>When user clicks on screen size, price and item location</name>
+            <title>When user clicks on screen size, price and item location</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "user clicks on screen size, price and item location" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "user clicks on screen size, price and item location" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/syarasafrila/WdioCermati/features/ebay.feature):1:1
+                	at Scenario(Access a Product via category after applying multiple filters):3:5
+                	at Step(user clicks on screen size, price and item location):8:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673019973717' status='broken' stop='1673019973718'>
+            <name>Then user verifying that the filter tags are applied</name>
+            <title>Then user verifying that the filter tags are applied</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "user verifying that the filter tags are applied" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "user verifying that the filter tags are applied" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/syarasafrila/WdioCermati/features/ebay.feature):1:1
+                	at Scenario(Access a Product via category after applying multiple filters):3:5
+                	at Step(user verifying that the filter tags are applied):9:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673019973718' status='passed' stop='1673019973719'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

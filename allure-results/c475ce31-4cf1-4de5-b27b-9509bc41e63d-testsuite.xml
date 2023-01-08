@@ -1,0 +1,194 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673112127076' stop='1673112140748'>
+    <name>ebay website: Access a Product via category after applying multiple filters</name>
+    <title>ebay website: Access a Product via category after applying multiple filters</title>
+    <test-cases>
+        <test-case start='1673112127077' status='passed' stop='1673112127078'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673112127079' status='passed' stop='1673112136543'>
+            <name>Given I am on the cell Phones and accessories page "https://www.ebay.com/b/Electronics/bn_7000259124"</name>
+            <title>Given I am on the cell Phones and accessories page "https://www.ebay.com/b/Electronics/bn_7000259124"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps>
+                <step start='1673112127081' status='passed' stop='1673112135818'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='d1bf2e4c-2c15-4c59-a650-8a2ef625f09a-attachment.json' type='application/json' size='63'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1673112135818' status='passed' stop='1673112136542'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='b2736c91-5b25-4822-b952-62e1aa1b6f72-attachment.json' type='application/json' size='57'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1673112136544' status='passed' stop='1673112140122'>
+            <name>When user clicks on cell Phones and Smartphones side navigation</name>
+            <title>When user clicks on cell Phones and Smartphones side navigation</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps>
+                <step start='1673112136546' status='passed' stop='1673112136814'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='b424c42f-6c9c-4dbc-a4bd-5fbc8add87d4-attachment.json' type='application/json' size='95'/>
+                        <attachment title='Response' source='22866a00-c02b-465f-9461-db1b5d5e2729-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1673112136820' status='passed' stop='1673112136985'>
+                    <name>POST /session/:sessionId/element/f42773e6-d883-435c-ae3c-0dcd164d4ed4/click</name>
+                    <title>POST /session/:sessionId/element/f42773e6-d883-435c-ae3c-0dcd164d4ed4/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673112136985' status='passed' stop='1673112137048'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='36da4177-eef0-43f8-bcdd-ae9837d3ed9c-attachment.json' type='application/json' size='66'/>
+                        <attachment title='Response' source='56bc8254-a720-4385-b3fb-68b40aa771bf-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1673112137049' status='passed' stop='1673112139673'>
+                    <name>POST /session/:sessionId/element/38066fa3-6ea4-498c-ae39-01a3a69577b2/click</name>
+                    <title>POST /session/:sessionId/element/38066fa3-6ea4-498c-ae39-01a3a69577b2/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673112139676' status='passed' stop='1673112139992'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='e6686003-496e-47c7-b79a-cbd6fe072b9d-attachment.json' type='application/json' size='92'/>
+                        <attachment title='Response' source='3e9f0cbc-9eb2-4af4-bd57-e6c9adcc6619-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1673112139994' status='passed' stop='1673112140121'>
+                    <name>GET /session/:sessionId/element/72aa5060-a83f-4463-92d1-b43c6981f196/text</name>
+                    <title>GET /session/:sessionId/element/72aa5060-a83f-4463-92d1-b43c6981f196/text</title>
+                    <attachments>
+                        <attachment title='Response' source='8bccc84a-4d4c-4a0c-9deb-586ebf952fa7-attachment.json' type='application/json' size='26'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1673112140123' status='passed' stop='1673112140744'>
+            <name>When user clicks on more refinement button</name>
+            <title>When user clicks on more refinement button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps>
+                <step start='1673112140124' status='passed' stop='1673112140508'>
+                    <name>POST /session/:sessionId/actions</name>
+                    <title>POST /session/:sessionId/actions</title>
+                    <attachments>
+                        <attachment title='Request' source='a46337f4-3a2f-4076-9175-490510b3eb88-attachment.json' type='application/json' size='289'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1673112140508' status='passed' stop='1673112140537'>
+                    <name>DELETE /session/:sessionId/actions</name>
+                    <title>DELETE /session/:sessionId/actions</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673112140537' status='passed' stop='1673112140564'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='d09091af-faac-42a9-b216-6048111f4d0e-attachment.json' type='application/json' size='102'/>
+                        <attachment title='Response' source='29facd39-a4a7-40bd-985d-da423bc51d8c-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1673112140569' status='passed' stop='1673112140743'>
+                    <name>POST /session/:sessionId/element/bd2c4f17-3e90-4e42-ace3-bdfc81b1879a/click</name>
+                    <title>POST /session/:sessionId/element/bd2c4f17-3e90-4e42-ace3-bdfc81b1879a/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1673112140744' status='broken' stop='1673112140746'>
+            <name>When user clicks on screen size price 2000000 and 3000000 item location</name>
+            <title>When user clicks on screen size price 2000000 and 3000000 item location</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "user clicks on screen size price 2000000 and 3000000 item location" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "user clicks on screen size price 2000000 and 3000000 item location" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/syarasafrila/WdioCermati/features/ebay.feature):1:1
+                	at Scenario(Access a Product via category after applying multiple filters):3:5
+                	at Step(user clicks on screen size price &lt;MinVal> and &lt;MaxVal> item location):8:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673112140746' status='passed' stop='1673112140747'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
